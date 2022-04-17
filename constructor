@@ -1,0 +1,18 @@
+///implicit conversion with overloading constructor
+public class Main
+{
+	public static void main(String[] args) {
+	Abc obj=new Abc(5);
+	}
+}
+ class Abc{
+ public Abc(){
+     System.out.println("THis is abc constructor");
+ }   
+// public Abc(int i){
+ //    System.out.println("THis is abc constructor int");
+// }   
+ public Abc(double i){
+     System.out.println("THis is abc constructor double");
+ }   
+}
